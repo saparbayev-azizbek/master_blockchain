@@ -1,0 +1,341 @@
+body {
+    background: url('../media/images/body_bg.jpg');
+}
+
+
+/* Header section  */
+
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 0 30px;
+}
+
+.head_top {
+    margin-top: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgb(220, 216, 235);
+    z-index: 5;
+}
+
+.navbar_items p{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.navbar_items p:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    color: orange
+}
+
+#navbar_item a{
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    font-size: large;
+    margin-top: 10px;
+}
+
+#navbar_item a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: orange
+}
+
+#navbar_item1 a{
+    text-decoration: none;
+    float: left;
+    color: #fff;
+    font-size: large;
+    margin-top: 10px;
+}
+
+#navbar_item1 a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: orange
+}
+
+.brand_name {
+    color: white;
+    font: bold;
+}
+/* End of header section */
+
+
+/* Main Section */
+
+.main_section .main_view .row .about h1{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    margin-left: 10px;
+}
+
+.main_section .main_view .row .about p{
+    margin-top: 40px;
+    font-weight: 60;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.main_section .main_view .row .about .buttons p{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 15px;
+    padding: 20px 40px;
+    max-width: 225px;
+    font-weight: 400;
+    font: bold;
+    text-align: center;
+    width: 200px;
+    border: white 2px solid;
+}
+
+.main_section .main_view .row .about .buttons p:hover{
+    border: #face34 2px solid;
+    cursor: pointer;
+    background-color: #face34;
+    transition: all 1s;
+    color: black;
+}
+
+/* End of Main Section */
+
+/* Cards */
+
+.cards .row {
+    margin-left: 23px;
+}
+
+.cards .row .text_align_centre{
+    background-color: wheat;
+    box-shadow: rgb(212, 178, 185) 5px 8px 2px;
+    text-align: center;
+    color: black;
+    padding: 20px 15px;
+    margin: 2px 10px;
+    width: 22%;
+}
+
+.cards .row .text_align_centre:hover{
+    background-color: #face34;
+    color: darkblue;
+    transition: all 1s;
+}
+
+.cards .row {
+    margin-left: 50px;
+}
+
+.cards .row .text_align_centre .coin_img h3{
+    padding-top: 15px;
+}
+
+/* End of cards */
+
+/* About section */
+
+.about_2 .row .about_section h1{
+    padding-top: 30px;
+    padding-left: 70px;
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+    margin-left: 10px;
+}
+
+.about_2 .row .about_section p{
+    margin-top: 40px;
+    font-weight: 60;
+    font-size: 20px;
+    color: white;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.about_2 .row .about_section .button  p{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 20px 40px;
+    max-width: 225px;
+    font-weight: 400;
+    font: bold;
+    text-align: center;
+    width: 200px;
+    border: white 2px solid;
+}
+
+.about_2 .row .about_section .button p:hover{
+    border: #face34 2px solid;
+    background-color: #face34;
+    transition: all 1s;
+    color: black;
+}
+
+.about_2 {
+    border: dashed 2px white;
+    margin: 40px 60px;
+    padding-bottom: 20px;
+}
+
+.about_2 .row .about_image{
+    padding-top: 60px;
+    padding-left: 90px;
+}
+/* End of about section */
+
+/* Links */
+
+.links {
+    border: white 1px solid;
+    padding : 1rem;
+    margin: 0 60px;
+}
+
+.links .box_link a{
+    text-decoration: none;
+    color: white;
+    padding: 0 110px;
+    font-weight: 500;
+}
+
+.links .box_link a:hover{
+    color: orange;
+    transition: all 0.5s;
+}
+
+/* End of links */
+
+/* Binance section */
+
+.links .link_p p{
+    display: inline-block;
+    padding:0 40px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.links .link_p hr{
+    color: white;
+    border-width: 1px;
+}
+
+.links .graphs
+{
+    color: white;
+    padding: 30px 30px 20px 50px;
+}
+
+/* End of binance section */
+
+/* Tutorial section */
+
+.tutorials{
+    margin: 20px 60px;
+}
+
+.tutorials .videos_section{
+    color: white;
+}
+
+
+.tutorials .carss .cards .card{
+    border-radius: 0 0 10px 10px;
+}
+
+.tutorials .carss .cards .card-body{
+    background-color: rgb(174, 179, 184);
+    border-radius: 0 0 10px 10px;
+}
+
+/* End of tutorial section */
+
+
+
+#footer{
+    padding: 3rem;
+    margin-top: 6rem;
+	/* padding-top: 5rem; */
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#footer2{
+	background: #f7f7f7;
+    padding: 3rem;
+    margin-top: 0px;
+	/* padding-top: 5rem; */
+	padding-top: 7rem;
+    padding-bottom: 80px;
+}
+li{
+	list-style: none;
+   
+}
+.footer .container .useful-link h2{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer .container h1{
+    color: white;
+    font-weight: 600;
+}
+
+.use-links{
+	line-height: 32px;
+}
+.use-links li i{
+	font-size: 14px;
+    color: #f7f2f2;
+}
+.use-links li a{
+    font-size: 15px;
+    font-weight: 500;
+	color: #f0eded;
+}
+.use-links li a:hover{
+	color: orange;
+}
+.copy-right-sec{
+	padding: 1.8rem;
+    color: #fff;
+    text-align: center;
+}
+.copy-right-sec a{
+	color: orange;
+    font-weight: 500;
+}
+a{
+  text-decoration:none;
+}
+
+.use-links .form input{
+    background-color: transparent;
+    padding: 3px;
+    padding-left: 4px;
+    border: 2px solid white;
+    width: 100%;
+    color: white;
+}
+
+.footer hr{
+    color: white;
+    border: 2px;
+}
+
+/* footer section end */
